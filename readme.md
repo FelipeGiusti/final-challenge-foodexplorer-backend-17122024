@@ -14,14 +14,14 @@ O projeto tem como propósito a criação de uma interface amigável para a visu
 
 ## Tecnologias Utilizadas
 
-- Vite - Simplifica a criação do projeto front-end;
-- React - Biblioteca para construção de interfaces visuais em JavaScritp;
-- React-router - Biblioteca para gerenciamento de rotas em aplicações React;
-- React-icons - Biblioteca de código aberto que permite a inclusão de ícones em aplicações React;
-- Styled-components - Biblioteca para aplicações React que permite estilizações em componentes JavaScript utilizando CSS;
-- Keen-Slider - Biblioteca para carrossel de imagens para aplicações React;
-- React-currency-input-field - Componente React para formatação de números e valores monetários;
-- Axios - Biblioteca JavaScript que permite fazer requisições HTTP a partir do navegador ou servidor Node.
+- Node.js - Ambiente de execução de códigos JavaScript;
+- Express.js - Framework para criação de aplicativos e APIs;
+- CORS - Mecanismo que garente a navegação segura do usuário;
+- SQLite - Banco de dados relacional que não necessita de um servidor;
+- JSON Web Token (JWT) - Uma forma de autenticação que permite a transmissão segura de informações entre duas partes;
+- Multer - Middleware do Node.js que permite fazer upload de arquivos;
+- Knex.js - Ferramenta que facilita o acesso e a interação com bancos de dados relacionais;
+- BCrypt.js - Método de criptografia do tipo hash para senhas;
 
 ## Como Executar o Projeto
 
@@ -37,27 +37,54 @@ Certifique-se de ter as seguintes ferramentas instaladas no seu sistema:
 1. Clone este repositório para o seu computador:
 
    ```bash
-   git clone https://github.com/FelipeGiusti/final-challenge-foodexplorer-frontend-16122024.git
+        git clone https://github.com/FelipeGiusti/final-challenge-foodexplorer-backend-17122024.git
    ```
 2. Navegue até o diretório do projeto:
     ```bash
-    cd /final-challenge-foodexplorer-frontend-16122024
+        cd /final-challenge-foodexplorer-backend-17122024
     ```
 
 3. Instale as dependências (caso aplicável):
     ```bash
-    npm install
+        npm install
     ```
 
-4. Para executar o projeto, rode o seguinte comando:
+4. Configure as variaveis de ambiente criando um arquivo ```.env``` utilizando as variaveis abaixo:
     ```bash
-    npm run dev
+        PORT=3000
+        AUTH_SECRET=
     ```
 
-5. Abra o navegador e vá para http://localhost:5173 para visualizar o projeto.
+5. Execute as migrations:
+    ```bash
+        npm run migrate
+    ```
 
-### Back-End
-O projeto backend para executar junto desta aplicação encontra-se no repositório [Back-End Food Explorer]().
+6. Execute as seeds:
+    ```bash
+        npm run seed
+    ```
+
+7. Execute o servidor da aplicação:
+    ```bash
+        npm start
+    ```
+
+### Credenciais de acesso
+Para criar o token de autenticação, utilize as credenciais fornecidas no endpoint /sessions.
+
+Administrador:
+
+    Login: admin@email.com
+    Senha: 123456
+
+Usuário:
+
+    Login: user@email.com
+    Senha: 123456
+
+### Front-End
+O projeto frontend para executar junto desta aplicação encontra-se no repositório [Front-End Food Explorer](https://github.com/FelipeGiusti/final-challenge-foodexplorer-frontend-16122024).
 
 ## Licença MIT
 
@@ -79,4 +106,3 @@ A Licença MIT é uma licença permissiva que permite a você usar, copiar, modi
 ## Guia de Resolução
  - [Entrega](https://app.rocketseat.com.br/explorer/final-challenge)
  - [Guia](https://efficient-sloth-d85.notion.site/Guia-de-resolu-o-do-desafio-final-do-Explorer-v2-b38a81fe7cb5486e9e3fa600da5b3390?pvs=4)
- - [Figma](https://www.figma.com/community/file/1196874589259687769)
