@@ -1,0 +1,25 @@
+{
+  "name": "final-challenge-foodexplorer-backend-17122024",
+  "version": "1.0.0",
+  "description": "Este é o projeto final do curso Explorer, no qual foi desenvolvido o Food Explorer. O objetivo deste projeto é desenvolver uma aplicação completa para um cardápio digital utilizando as tecnologias aprendidas HTML, CSS, JavaScript, Node.js e React.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-async-errors": "^3.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "multer": "^1.4.5-lts.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
