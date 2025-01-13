@@ -51,7 +51,7 @@ Certifique-se de ter as seguintes ferramentas instaladas no seu sistema:
 
 4. Configure as variaveis de ambiente criando um arquivo ```.env``` utilizando as variaveis abaixo:
     ```bash
-        PORT=3000
+        PORT=3333
         AUTH_SECRET=
     ```
 
