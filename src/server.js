@@ -14,6 +14,10 @@ app.use(express.json());
 app.use(routes);
 app.use(appErrorMiddleware);
 
+app.get("/", (req, res) => {
+  return res.json({"message": "OK"});
+})
+
 app.listen(PORT, function () {
   console.log(`[Server] listening on port ${PORT}`);
 });
