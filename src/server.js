@@ -15,7 +15,7 @@ app.use(routes);
 app.use(appErrorMiddleware);
 
 app.get("/", (req, res) => {
-  return res.json({"message": "OK"});
+  return res.json({"message": "DEU"});
 })
 
 app.listen(PORT, function () {
