@@ -87,7 +87,7 @@ Usuário:
 O projeto frontend para executar junto desta aplicação encontra-se no repositório [Front-End Food Explorer](https://github.com/FelipeGiusti/final-challenge-foodexplorer-frontend-16122024).
 
 ### API
-Este projeto está publica no Render para consumo do Front End, basta acessar o link abaixo e confirmar a mensagem de retorno.
+Este projeto está publicado no Render para consumo do Front End, basta acessar o link abaixo e confirmar a mensagem de retorno.
 
 [API](https://foodexplore-api-felipegiusti.onrender.com)
 
